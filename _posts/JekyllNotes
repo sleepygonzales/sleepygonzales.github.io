@@ -1,2 +1,26 @@
 1. Change header and footer images (_config.yml)
 2. Make posts in _posts folder (copy the naming scheme)
+
+1. Make Pingendo Pages
+2. Convert Less to Css, copy to Jekyll
+3. Convert HTML, copy to Jekyll
+4. index.html = default page
+5. Make sure html looks for correct css file <link href="css/MusicPage.css" rel="stylesheet" type="text/css">
+     - in "Head section"
+Pulling out header and footer, replacing it with include tag which looks like
+       example: {% include header-new.html %}
+
+Changing header and footer photos (any default) in _config.yml
+         -Make tag (ex: headerbackground)
+         -Link to image online in config.yml
+         -Add tag in includes file : {{ site.headerbackground }}
+
+Linking to Pages on headers
+        - include href tag in includes file
+        ex: <a href="music.html" class="btn btn-link">Music</a>
+
+
+git status
+git add -A
+git commit -m "message here"
+git push origin master
