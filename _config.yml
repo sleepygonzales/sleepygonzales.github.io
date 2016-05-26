@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter: https://twitter.com/CristianVGarden
-instagram: https://www.instagram.com/cristianvanwyngarden/
+instagram: https://www.instagram.com/sleepygonzales/
 facebook: https://www.facebook.com/sleepyg123/
 headerbackground: https://images.unsplash.com/photo-1440227537815-f4476b789291?crop=entropy&fit=crop&fm=jpg&h=1025&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1250
 footerbackground: https://images.unsplash.com/photo-1440227537815-f4476b789291?crop=entropy&fit=crop&fm=jpg&h=1025&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1250
